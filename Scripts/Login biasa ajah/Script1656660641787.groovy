@@ -37,5 +37,5 @@ WebUI.click(findTestObject('Object Repository/a_Logout'))
 
 WebUI.click(findTestObject('Object Repository/a_CURA Healthcare_menu-toggle'))
 
-WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/a_Login'), 0)
+WebUI.closeBrowser()
 
